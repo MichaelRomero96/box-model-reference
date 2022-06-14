@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.root {
+    width: 100vw;
+    /* unidad de medida "vw" = Viewport width */
+    height: 100vh;
+    /* unidad de medida "vh" = Viewport height */
+}
+
+.box {
+    /*  margin */
+    margin-top: 50px;
+    /*  top */
+    margin-right: 50px;
+    /*  right */
+    margin-bottom: 50px;
+    /*  bottom */
+    margin-left: 50px;
+    /*  left */
+    /* shorthand margin */
+    margin: 0 auto;
+    /*box-model WIDTH - HEIGHT*/
+    width: 50%;
+    /* unidad de medida "%" = porcentaje referencia - padre */
+    height: 50%;
+    background-color: red;
+}
+
+.title {
+    margin: 0 auto;
+}
